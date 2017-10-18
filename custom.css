@@ -120,7 +120,7 @@ hr{
 /* Footer */
 
 .footer-bottom {
-    background:#CCC url(img/header.png) no-repeat;
+    background:#CCC url(img/header.svg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 70px;
