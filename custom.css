@@ -1,7 +1,7 @@
 /* Header*/
 
 .jumbotron{
-    background: #CCC url(img/header.png) no-repeat;
+    background: url(img/header.png) no-repeat;
     background-size: cover;
     width: 100%;
     
@@ -31,6 +31,14 @@ a:hover{
     color:orange
 }
 /* Body*/
+
+.image{
+    margin-bottom: 1em;
+}
+
+.tracklist{
+    margin-top: 1em
+}
 
 .container {
     position: relative;
@@ -69,9 +77,9 @@ a:hover{
     display: block;
     width: 90%;
     border: none;
-    border-radius:  5px;
-    
+    border-radius:  5px;   
 }
+
 h2{
     
     font-family: 'Open Sans Condensed', sans-serif;
@@ -83,6 +91,7 @@ h3{
     font-family: 'Open Sans Condensed', sans-serif;
     color: #1F2833
 }
+
 p{
     font-size: 16px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -97,9 +106,9 @@ h4{
 }
 
 ol {
-    float:right;
-    clear: both;
+    
     font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 1em
 }
 
 
@@ -109,6 +118,7 @@ hr{
     width: 100%
 }
 /* Footer */
+
 .footer-bottom {
     background:#CCC url(img/header.png) no-repeat;
     background-size: cover;
@@ -142,7 +152,12 @@ hr{
         font-size: 20px
     }
     .button{
-        width: 50%
+        width: 100%
+    }
+   
+    .container {
+        position: relative;
+        width: 100%;
     }
 }
  
